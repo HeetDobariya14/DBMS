@@ -1,0 +1,33 @@
+-- Creating the table
+
+CREATE TABLE EMPLOYEE (
+
+EMP_ID INT,
+
+EMP_NAME VARCHAR (25),
+
+PHONE_NO INT,
+
+ADDRESS CHAR (30),
+
+PRIMARY KEY (EMP_ID)
+
+);
+
+
+
+-- Describing the table
+
+DESC EMPLOYEE;
+
+
+
+-- Inserting the value to the table
+
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 99133, 'Burger Street');
+
+
+
+-- Fetching the table
+
+SELECT * FROM EMPLOYEE
